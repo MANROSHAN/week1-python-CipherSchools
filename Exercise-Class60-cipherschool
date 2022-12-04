@@ -1,0 +1,7 @@
+temp_var = ""
+k = 0
+while i < len(name):
+    if name[k] not in temp_var:
+        temp_var += name[k]
+        print(f"{name[k]} : {name.count(name[k])}")
+    k += 1
