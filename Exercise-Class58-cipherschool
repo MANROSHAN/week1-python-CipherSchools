@@ -1,0 +1,7 @@
+num = input("enter a num")
+total = 0
+a=0
+while a < len(num):
+    total += int(num[a])
+    a += 1
+print(total)
